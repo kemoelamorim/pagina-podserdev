@@ -1,7 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 p{
     text-align:center;
     font-size: 20px;
+    background-color: #cccccc;
 }
 h1{
+    background-color: #cccccc;
     text-align: center;
+}
+em strong{
+    color: red;
 }
