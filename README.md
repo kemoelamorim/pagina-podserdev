@@ -68,7 +68,9 @@ Resultado HTML:
 **Enfase no conteúdo**
 
 ```
-<p>Este conteúdo não tem nenhum nível de importancia semântica.<strog>Conteúdo semânticamente importânte</strong>. <em>Aqui temos uma ênfase no conteúdo</em></p>
+<p>Este conteúdo não tem nenhum nível de importancia semântica.
+<strog>Conteúdo semânticamente importânte</strong>. 
+<em>Aqui temos uma ênfase no conteúdo</em></p>
 ```
 Resultado HTML:
 <p>Este conteúdo não tem nenhum nível de importancia semântica.<strong> Conteúdo semânticamente importânte</strong>. <em>Aqui temos uma ênfase no conteúdo</em></p>
