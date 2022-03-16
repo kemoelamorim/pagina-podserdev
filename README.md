@@ -47,9 +47,11 @@ Uma tag é a anotação semantica para indicar ao navegador a estrutura para da 
 ---
 
 **Parágrafo**
+
 ```
 <p>Tag que representa um parágrado.</p>
 ```
+
 Resultado HTML:<p>Tag que representa um parágrado.</p>
 
 ---
@@ -57,9 +59,11 @@ Resultado HTML:<p>Tag que representa um parágrado.</p>
 **Importância Semântica**
 
 Marca o conteúdo como um nível de importancia (não é uma mudança visual, mas sim semântica)
+
 ```
 <p>Este conteúdo não tem nenhum nível de importancia semântica.<strog> Conteúdo semânticamente importânte</strong>.</p>
 ```
+
 Resultado HTML:
 <p>Este conteúdo não tem nenhum nível de importancia semântica.<strong> Conteúdo semânticamente importânte</strong>.</p>
 
@@ -72,12 +76,14 @@ Resultado HTML:
 <strog>Conteúdo semânticamente importânte</strong>. 
 <em>Aqui temos uma ênfase no conteúdo</em></p>
 ```
+
 Resultado HTML:
 <p>Este conteúdo não tem nenhum nível de importancia semântica.<strong> Conteúdo semânticamente importânte</strong>. <em>Aqui temos uma ênfase no conteúdo</em></p>
 
 ---
 
 ### Tags de metadados do Arquivo HTML
+
 > Declarando o tipo do Arquivo:
 
 ```
@@ -94,9 +100,11 @@ Resultado HTML:
     ...outras tags...
     </html>
   ```
+
 > Tag head com meta dados e informações de configurações
 
 `A tag <head> passa as informações para o navegador conheca as propriedades da página carregada`
+
 ```
 <DOCTYPE html>
 <html>
@@ -144,3 +152,42 @@ Resultado HTML:
 </html>
 
 ```
+
+---
+> CSS (Cascate Style Sheet)
+
+`O css significa folha de style em cascata (misturnado inglês com português), e nos permite criar estilos visuais para o arquivo html`
+- Existem três formas de usar o css:
+    - Em linha: CSS inline
+        ``` 
+            <p style="font-size: 20px;">
+                Texto com tamanho da fonte de 20px
+            </p>
+        ```
+
+    - Na tag head:
+        ```
+            <html lang="pt-br">
+            <head>
+                <style>
+                    p {
+                        fonte-size: 20px
+                    }
+                </style>
+            <head>
+            <body>
+                <p>Conteúdo com 20px</p>
+            </boby>
+            </html>
+        ```
+    - Em arquivo externo sendo importado no head:
+        ```
+            <html lang="pt-br">
+            <head>
+                <link rel="stylesheet" href="style.css>
+            <head>
+            <body>
+                <p>Conteúdo com 20px</p>
+            </boby>
+            </html>
+        ```
