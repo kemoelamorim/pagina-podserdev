@@ -180,7 +180,7 @@ Resultado HTML:
             </boby>
             </html>
         ```
-    - Em arquivo externo sendo importado no head:
+    - Em arquivo externo sendo importado no head: usando um arquivo style.css (.css é a extenão assim como o .html)
         ```
             <html lang="pt-br">
             <head>
