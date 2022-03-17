@@ -1,13 +1,55 @@
-body{
-    background-color: #CCCCCC;
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Audiowide&family=Inconsolata:wght@300&display=swap');
+*{
+    margin: 0;
+    padding:0;
 }
+
 p{
     text-align:center;
-    font-size: 20px;
+    font-size: 28px;
+    color: aliceblue;
+    font-family: 'Inconsolata', monospace;
+    margin-bottom: 15px;
 }
-h1{
+.cabecalho{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: #130D26
+}
+.titulo{
+    font-size: 40px;
+    color:  rgb(237, 30, 121);
+    font-family: 'Audiowide', cursive;
     text-align: center;
 }
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 75%;
+    margin: 0 auto;
+    
+}
 em strong{
-    color: #1f0fff
+    color: #cdce8e
+}
+main{
+    padding-top: 55px;
+    height: 400px;
+    font-size: 22px;
+    background-color: #2e293d;
+    min-height: 750px;
+}
+.img-programador{
+    padding-top: 55px;
+    height: 30px;
+    box-sizing: border-box;
+    text-align: center;
+}
+footer{
+    bottom: 0;
+    
+    min-height: 350px;
+    background-color: #130D26
 }
